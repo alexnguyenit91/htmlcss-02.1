@@ -3,7 +3,6 @@
 }
 
 :root {
-    --font-heading: Sen, sans-serif;
     --primary-color: #1ebfc1;
 }
 
@@ -14,4 +13,264 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+
+.break-all {
+    word-break: break-all;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.16;
+    color: #0d1111;
+}
+
+/* Header */
+.header--fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0 8px;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    font-size: 1.6rem;
+    color: #2f3a3b;
+    padding: 8px 20px;
+}
+
+.nav a:hover,
+.nav__active a {
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.action__link {
+    font-size: 1.6rem;
+    color: #494949;
+}
+
+.action__btn {
+    margin-left: 24px;
+    width: 108px;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.action__btn:hover {
+    background: var(--primary-color);
+    color: #ffffff;
+}
+
+/* Hero */
+.hero {
+    padding: 42px 0 79px 0px;
+}
+
+.hero__body {
+    display: flex;
+}
+
+/* Hero left */
+
+.hero__content-block {
+    width: 47%;
+    padding: 132px 0px;
+}
+
+.hero__content-block .desc {
+    margin-top: 46px;
+    width: 374px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #9da6a5;
+}
+
+.hero .cta-group {
+    margin-top: 52px;
+    display: flex;
+}
+
+.hero__btn {
+    width: 186px;
+    background: #1ebfc1;
+    border-radius: 14px;
+    padding: 20px 41px 21px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero__btn:hover {
+    opacity: 0.9;
+}
+
+.hero .cta-group .icon {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+/* Hero right */
+.hero__media-block {
+    position: relative;
+    width: 53%;
+    height: 631px;
+}
+
+.hero__media-block .img {
+    display: block;
+    margin-left: auto;
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero__courses {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 149px;
+    left: 25px;
+    width: 157px;
+    height: 75px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+
+.hero__courses .icon {
+    position: relative;
+    padding: 17px 16px 18px 25px;
+}
+
+.hero__courses span {
+    position: absolute;
+    left: 29px;
+    bottom: 25px;
+    width: 28px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.hero__courses .title {
+    width: 55px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.hero__schedules {
+    position: absolute;
+    left: 0;
+    bottom: 46px;
+    width: 124px;
+    height: 132px;
+    padding: 16px 25px 23px;
+    background: #ffffff;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero__schedules .title {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0d1111;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.hero__schedules .icon {
+    text-align: center;
+}
+
+.hero__avatar {
+    width: 207px;
+    height: 90px;
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
+    padding: 17px 35px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero__avatar .title {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.hero__avatar .avatar-group {
+    margin-top: 8px;
+    display: flex;
+}
+
+.hero__avatar .avatar:first-child {
+    margin-left: 0;
+}
+
+.hero__avatar .avatar {
+    margin-left: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hero__avatar .avatar-1 {
+    background: #1ebfc1;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
 }
