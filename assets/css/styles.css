@@ -50,6 +50,7 @@ a {
 /* Header */
 .header--fixed {
     position: sticky;
+    background: #ffffff;
     top: -28px;
     z-index: 1;
 }
@@ -433,4 +434,26 @@ a {
     font-size: 1.4rem;
     line-height: 21px;
     color: #9da6a5;
+}
+
+.popular__qty {
+    margin-top: 389px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.popular__qty .qty {
+    font-weight: 700;
+    font-size: 6.2rem;
+    text-align: center;
+    color: #0d1111;
+}
+
+.popular__qty .qty-desc {
+    margin-top: 11px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    text-align: center;
+    color: #767e7e;
 }
