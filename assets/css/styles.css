@@ -457,3 +457,127 @@ a {
     text-align: center;
     color: #767e7e;
 }
+
+/* Feedback */
+.feedback {
+    margin-top: 264px;
+}
+
+.feedback__item {
+    display: flex;
+}
+
+.feedback__item .info {
+    width: 42%;
+    padding-top: 37px;
+}
+
+.feedback__item .desc {
+    margin: 27px 0 33px 0;
+    width: 419px;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+
+.feedback__item .name::before {
+    margin-right: 5px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.feedback__item .name {
+    display: flex;
+    align-items: center;
+    color: #767e7e;
+}
+
+.feedback__item .name strong {
+    font-weight: 500;
+    color: #070707;
+}
+
+.feedback__controls {
+    display: flex;
+    margin-top: 58px;
+}
+
+.feedback__controls .controls-btn {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #2ac9bf;
+    border-radius: 50%;
+    border: none;
+}
+
+.feedback__controls .controls-btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.feedback__item .avatar {
+    position: relative;
+    width: 58%;
+}
+
+.feedback__item .avatar-1 {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback__item .avatar-2 {
+    position: absolute;
+    top: 0px;
+    right: 443px;
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback__item .avatar-3 {
+    position: absolute;
+    top: 19px;
+    right: 0px;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback__item .avatar-4 {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback__item .avatar-4-1 {
+    position: absolute;
+    top: 374px;
+    right: 32px;
+}
+
+.feedback__item .avatar-4-2 {
+    position: absolute;
+    top: 403px;
+    right: 389px;
+}
+
+.feedback__item .avatar-4-3 {
+    position: absolute;
+    top: 258px;
+    right: 601px;
+}
