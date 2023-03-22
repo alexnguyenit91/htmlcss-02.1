@@ -47,6 +47,12 @@ a {
     line-height: 1.33;
 }
 
+.headding.lv3 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #2e2e2e;
+}
+
 /* Header */
 .header--fixed {
     position: sticky;
@@ -580,4 +586,91 @@ a {
     position: absolute;
     top: 258px;
     right: 601px;
+}
+
+/* CTA */
+.cta {
+    margin-top: 130px;
+    background: #def6f5;
+}
+
+.cta .body {
+    padding: 76px 0 88px 0;
+    display: flex;
+    align-items: center;
+}
+
+.cta .body .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #767e7e;
+}
+
+.cta .cta-button {
+    margin-left: 410px;
+}
+
+.cta .cta-button .btn {
+    width: 186px;
+    height: 68px;
+    background: #2ac9bf;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+.cta .cta-button .btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    padding: 131px 0 50px 0;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 144px;
+}
+
+.footer .row .list {
+    margin-top: 25px;
+}
+
+.footer .row .list li {
+    margin-top: 20px;
+}
+
+.footer .row .list a {
+    color: #535353;
+}
+
+.footer .row .social {
+    margin-top: 18px;
+}
+
+.footer .row .social .icon {
+    margin: 18px 13px 0 0;
+}
+
+.footer .row .social a {
+    color: #535353;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+}
+
+.footer .copyright p {
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #b0b5b4;
+    text-align: center;
 }
